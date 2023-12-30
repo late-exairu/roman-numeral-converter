@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palindrome Checker</title>
+    <script type="module" crossorigin src="/roman-numeral-converter/assets/index-KZtomewL.js"></script>
+    <link rel="stylesheet" crossorigin href="/roman-numeral-converter/assets/index-KJbK2Zo4.css">
+  </head>
+  <body class="bg-slate-800">
+    <div class="flex min-h-dvh items-center">
+      <div class="container mx-auto px-5">
+        <div class="mx-auto max-w-96">
+          <p class="mb-5 text-center text-3xl font-bold">
+            Roman Numeral Converter
+          </p>
+
+          <div class="my-5">
+            <form id="form" class="flex gap-3 md:gap-4">
+              <input
+                required
+                type="number"
+                id="number"
+                class="w-full rounded-md border border-gray-400 p-2 text-slate-800"
+                placeholder="Enter a Number:"
+              />
+
+              <button
+                type="submit"
+                id="convert-btn"
+                class="rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700"
+              >
+                Convert
+              </button>
+            </form>
+          </div>
+
+          <div class="my-5">
+            <div id="output" class="text-center text-2xl font-bold"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
