@@ -1,7 +1,7 @@
 const check = document.querySelector("#convert-btn") as HTMLButtonElement;
-const form = document.querySelector("#form") as HTMLButtonElement;
+const form = document.querySelector("#form") as HTMLFormElement;
 const input = document.querySelector("#number") as HTMLInputElement;
-const result = document.querySelector("#output") as HTMLParagraphElement;
+const result = document.querySelector("#output") as HTMLDivElement;
 
 const handleCheck = (e: Event) => {
   e.preventDefault();
